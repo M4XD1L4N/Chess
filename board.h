@@ -32,7 +32,8 @@ public:
 		SHAH,
 		MAT,
 		PAT,
-		OK
+		OK  
+
 	};
 
 public:
