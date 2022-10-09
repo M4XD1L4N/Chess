@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="figures">
+      <UniqueIdentifier>{a0f13de0-4c58-46b5-87fe-4c65464713c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{59c6ca32-ac48-434b-adb7-f7dc29504adf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="figure.h">
+      <Filter>figures</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="board.h" />
+    <ClInclude Include="board_factory.h" />
+    <ClInclude Include="horse.h">
+      <Filter>figures</Filter>
+    </ClInclude>
+    <ClInclude Include="elephant.h">
+      <Filter>figures</Filter>
+    </ClInclude>
+    <ClInclude Include="rook.h">
+      <Filter>figures</Filter>
+    </ClInclude>
+    <ClInclude Include="queen.h">
+      <Filter>figures</Filter>
+    </ClInclude>
+    <ClInclude Include="king.h">
+      <Filter>figures</Filter>
+    </ClInclude>
+    <ClInclude Include="pawn.h">
+      <Filter>figures</Filter>
+    </ClInclude>
+    <ClInclude Include="command_converter.h" />
+    <ClInclude Include="catch.hpp">
+      <Filter>tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="board.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="board_factory.cpp" />
+    <ClCompile Include="horse.cpp">
+      <Filter>figures</Filter>
+    </ClCompile>
+    <ClCompile Include="elephant.cpp">
+      <Filter>figures</Filter>
+    </ClCompile>
+    <ClCompile Include="rook.cpp">
+      <Filter>figures</Filter>
+    </ClCompile>
+    <ClCompile Include="queen.cpp">
+      <Filter>figures</Filter>
+    </ClCompile>
+    <ClCompile Include="king.cpp">
+      <Filter>figures</Filter>
+    </ClCompile>
+    <ClCompile Include="pawn.cpp">
+      <Filter>figures</Filter>
+    </ClCompile>
+    <ClCompile Include="command_converter.cpp" />
+    <ClCompile Include="unit_tests.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
