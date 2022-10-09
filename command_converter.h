@@ -17,6 +17,6 @@ public:
 							 std::vector<std::string>& items,
 							 const std::string& delimiter);
 	static Position convertPosition(const std::string& txt);
-};
+}; //rjfjrjgf
 
 } //namespace chess::utils
