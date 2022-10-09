@@ -3,3 +3,7 @@
 /Debug_UnitTest/
 /x64/
 /Chess.vcxproj.user
+
+/chess/.vs/
+/chess/Debug/
+/chess/Debug_UnitTest/
